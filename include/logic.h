@@ -17,6 +17,7 @@ public:
     struct Player{
         PlayerType player_type;
         BoardField field_type;
+
     };
 
     static int get_board_size();

@@ -6,6 +6,6 @@ struct BoardCoordinates{
     int y;
 };
 
-enum class BoardField { EMPTY, X, O };
+enum class BoardField { EMPTY, FIRST_PLAYER, SECOND_PLAYER };
 
 #endif // BOARD_H
